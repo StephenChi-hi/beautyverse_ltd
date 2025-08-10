@@ -58,7 +58,7 @@ function BlogIntro() {
         data-aos="fade-up"
       >
         <Header3 className="text-white text-center">
-          Our <span className="text-primary">Products</span>
+          Our <span className="text-primary">Brands</span>
         </Header3>
         <Paragraph1 className="max-w-[883px] text-white text-center">
           Crafted for beauty professionals, trusted by retailers, and loved by

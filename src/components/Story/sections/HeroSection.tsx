@@ -29,7 +29,7 @@ function HeroSection() {
               resonates far beyond the surface.
             </Paragraph1>
             <Button
-              text="View Our Products"
+              text="View Our Brands"
               href="/apply"
               isLink={true}
               additionalClasses="border-primary xl:w-fit w-full mb-[50px]  "

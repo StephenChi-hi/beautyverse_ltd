@@ -22,7 +22,7 @@ const BlogCard: React.FC<BlogCardProps> = ({
         src={image.replace("/upload/", "/upload/w_1000,f_auto/")}
         alt={title}
       />
-      <div className="p-4 flex flex-col">
+      <div className="p-4 flex flex-col ">
         <Header4 className=" font-semibold text-gray-800 mb-2">{title}</Header4>
         <Paragraph2 className="text-gray-600 mb-4">
           {" "}
@@ -34,7 +34,6 @@ const BlogCard: React.FC<BlogCardProps> = ({
           isLink={true}
           additionalClasses="border-0 xl:w-fit w-full "
         />
-      
       </div>
     </div>
   );

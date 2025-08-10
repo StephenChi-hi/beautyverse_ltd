@@ -83,14 +83,14 @@ function Section5() {
           </Paragraph1>
         </div>
         <div
-          className="flex-row items-center justify-center py-4 xl:py-[37px] text-p_black bg-bg_gray  "
+          className="flex-row items-center justify-center  xl:py-[17px] text-p_black bg-bg_gray  "
           data-aos="flip-up"
         >
           {/* Mapping over FAQ items */}
           {faqs.map((faq, index) => (
             <div
               key={faq.id}
-              className={`w-full px-4 xl:px-[37px] pt-4 xl:py-[21px] ${
+              className={`w-full px-4 xl:px-[37px] pt-4 xl:py-[11px] ${
                 index !== faqs.length - 1
                   ? "border-b-4 border-[#E4E4E7]"
                   : "xl:-mb-6"

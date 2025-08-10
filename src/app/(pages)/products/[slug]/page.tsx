@@ -134,14 +134,14 @@ export default async function BlogPage({
                 "do, MMMM yyyy"
               )}
           </p>{" "}
-          <div className="h-[350px] w-full my-4 flex ">
+          <div className="h-[500px] w-full my-4 flex ">
             <img
               src={currentBlog.blogImageURL1.replace(
                 "/upload/",
                 "/upload/w_1000,f_auto/"
               )}
               alt="Blog Cover"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-center object-cover"
             />
           </div>
           <div

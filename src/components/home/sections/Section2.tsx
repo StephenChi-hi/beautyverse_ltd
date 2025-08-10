@@ -40,9 +40,9 @@ function Section2() {
           <div className="  xl:col-span-3 sm:border-r-4 sm:border-black ">
             <div
               className=" bg-bg_gray  overflow-hidden "
-              data-aos="fade-right"
+              // data-aos="fade-right"
             >
-              <div className="  h-[200px] sm:h-[550px] overflow-hidden sm:border-b-4 bg-black sm:border-black flex   ">
+              <div className="  h-[200px] sm:h-[450px] overflow-hidden sm:border-b-4 bg-black sm:border-black flex   ">
                 <img
                   src="https://res.cloudinary.com/dz0vukmgt/image/upload/v1754812014/ssdfgh_gxjooe.png"
                   alt="branding"
@@ -70,7 +70,7 @@ function Section2() {
           <div className=" xl:col-span-2 ">
             <div
               className=" bg-bg_gray  sm:border-b-4 sm:border-black "
-              data-aos="fade-down-left"
+              // data-aos="fade-down-left"
             >
               <div className="space-y-[24px] text-p_black xl:space-y-[32px] p-[24px] xl:p-[32px]">
                 <Header4>Creating Beauty Together</Header4>
@@ -80,12 +80,12 @@ function Section2() {
                   reflect your vision, your style, and the world you want to
                   share.
                 </Paragraph1>
-                <RandomFaces />
+                {/* <RandomFaces /> */}
               </div>
             </div>
             <div
               className=" bg-primary sm:border-b-4 sm:border-black relative overflow-hidden text-white g "
-              data-aos="fade-up-left"
+              // data-aos="fade-up-left"
             >
               <div className=" absolute bottom-0 -right-[150px] flex w-full justify-end  ">
                 <div

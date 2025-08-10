@@ -73,7 +73,7 @@ function Navbar() {
                   pathname === "/products" ? "text-primary font-bold " : "  "
                 }
               >
-                Products
+                Brands
               </ParagraphLink1>
             </Link>
           </div>
@@ -125,7 +125,7 @@ function Navbar() {
                     pathname === "/products" ? "text-primary font-bold " : "  "
                   }
                 >
-                  Products
+                  Brands
                 </ParagraphLink1>
               </Link>
               <Button
