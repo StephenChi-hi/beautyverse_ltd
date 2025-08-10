@@ -6,6 +6,7 @@ import Button from "./Button";
 import { Paragraph2, ParagraphLink1, ParagraphLink2 } from "./Text";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
+import { Menu, X } from "lucide-react";
 
 function Navbar() {
   const pathname = usePathname();
@@ -83,14 +84,15 @@ function Navbar() {
             additionalClasses=" border-0  min-w-[152px] hidden lg:block"
           />{" "}
           <div className="lg:hidden">
-            <button onClick={toggleMenu} className="focus:outline-none">
-              <Image
-                height={2}
-                width={25}
-                src={menuOpen ? "/icons/close.svg" : "/icons/menu.svg"}
-                alt="menu"
-                className=""
-              />
+            <button
+              onClick={toggleMenu}
+              className="focus:outline-none text-primary"
+            >
+              {menuOpen ? (
+                <X className="w-6 h-6 text-primary" />
+              ) : (
+                <Menu className="w-6 h-6 text-primary" />
+              )}
             </button>
           </div>
         </div>

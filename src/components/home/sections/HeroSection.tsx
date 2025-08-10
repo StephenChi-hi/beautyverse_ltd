@@ -20,7 +20,7 @@ function HeroSection() {
         <div className=" container1 grid grid-cols-1 lg:grid-cols-5 gap-2 items-center ">
           {" "}
           <div
-            className="col-span-2 order-2- pt-[140px] xl:py-[120px] py-[50px] lg:order-1-"
+            className="col-span-2 order-2- pt-[80px] xl:py-[120px] py-[50px] lg:order-1-"
             data-aos="fade-up-right"
           >
             <Header1 className="text-white mt-4 xl:mt-0">
