@@ -86,12 +86,12 @@ function Navbar() {
           <div className="lg:hidden">
             <button
               onClick={toggleMenu}
-              className="focus:outline-none text-primary"
+              className="focus:outline-none text-white"
             >
               {menuOpen ? (
-                <X className="w-6 h-6 text-primary" />
+                <X className="w-6 h-6 " />
               ) : (
-                <Menu className="w-6 h-6 text-primary" />
+                <Menu className="w-6 h-6" />
               )}
             </button>
           </div>
