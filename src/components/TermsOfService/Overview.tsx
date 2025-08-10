@@ -16,7 +16,7 @@ function Overview() {
     <div className="pt-[10px] bg-bg_gray">
       <div data-aos="flip-right" className="container1">
         <div className="relative overflow-hidden">
-          <div className="flex flex-col bg-primary sm:gap-[20px] px-4 sm:p-[65px] py-12 sm:py- rounded-t-[24px] w-full sm:text-center text-white">
+          <div className="flex flex-col bg-primary sm:gap-[20px] px-4 sm:p-[65px] py-12 sm:py- -t-[24px] w-full sm:text-center text-white">
             <Header1Plus>Terms and Conditions</Header1Plus>
             <Paragraph3>
               These Terms and Conditions outline the rules, responsibilities,
@@ -34,7 +34,7 @@ function Overview() {
           </div>
         </div>
 
-        <div className="py-4 sm:py-[50px] rounded-b-[24px] text-p_black z-[10] bg-white px-4 sm:px-[65px] space-y-[18px] sm:space-y-[32px]">
+        <div className="py-4 sm:py-[50px] -b-[24px] text-p_black z-[10] bg-white px-4 sm:px-[65px] space-y-[18px] sm:space-y-[32px]">
           <div>
             <ParagraphLink1 className="font-bold text-primary">
               Use of Our Products & Services
@@ -89,7 +89,7 @@ function Overview() {
             </Paragraph1>
           </div>
         </div>
-        <Section6 />
+        {/* <Section6 /> */}
       </div>
     </div>
   );
