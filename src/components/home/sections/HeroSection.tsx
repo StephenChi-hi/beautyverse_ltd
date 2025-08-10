@@ -41,7 +41,7 @@ function HeroSection() {
               />
               <Button
                 text=" Brands"
-                href="/gallery"
+                href="/products"
                 isLink={true}
                 color="text-white"
                 backgroundColor=" bg-p_black"
