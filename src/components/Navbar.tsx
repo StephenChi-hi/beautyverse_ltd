@@ -116,14 +116,14 @@ function Navbar() {
                   About
                 </ParagraphLink1>
               </Link>
-              <Link href="/gallery" onClick={toggleMenu}>
+              <Link href="/products" onClick={toggleMenu}>
                 {" "}
                 <ParagraphLink1
                   className={
-                    pathname === "/gallery" ? "text-primary font-bold " : "  "
+                    pathname === "/products" ? "text-primary font-bold " : "  "
                   }
                 >
-                  Gallery
+                  Products
                 </ParagraphLink1>
               </Link>
               <Button
