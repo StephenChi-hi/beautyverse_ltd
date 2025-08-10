@@ -88,6 +88,13 @@ export const Header5: React.FC<{
   >
     {children}
   </h4>
+  );
+
+export const HeaderAny: React.FC<{
+  children: React.ReactNode;
+  className?: string;
+}> = ({ children, className = "" }) => (
+  <h4 className={` ${body_Font_Medium.className} ${className}`}>{children}</h4>
 );
 
 // Paragraph Component
