@@ -38,7 +38,7 @@ function BlogIntro({ blogs }: BlogIntroProps) {
           data-aos="fade-up"
         >
           <Header3>
-            Discover Our <span className="text-primary">Products</span>
+            Discover Our <span className="text-primary">Brands</span>
           </Header3>
           <Paragraph1 className="max-w-[883px] text-center">
             From luxurious skincare to innovative cosmetics, each Beautyverse

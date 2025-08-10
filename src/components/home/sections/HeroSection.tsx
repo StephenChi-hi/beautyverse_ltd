@@ -24,8 +24,9 @@ function HeroSection() {
             data-aos="fade-up-right"
           >
             <Header1 className="text-white mt-4 xl:mt-0">
-              Discover <span className="text-primary">Beauty</span>, Explore{" "}
-              <span className="text-primary">Your Universe</span>
+              Dedicated to <span className="text-primary">Healthy</span> Skin,
+              Inspired by{" "}
+              <span className="text-primary">Your Natural Beauty</span>
             </Header1>
             <Paragraph1 className="mt-[16px] mb-[48px] text-white">
               Premium cosmetics and skincare crafted to celebrate your unique
@@ -39,7 +40,7 @@ function HeroSection() {
                 additionalClasses="border-primary xl:w-fit w-full "
               />
               <Button
-                text="Our Brands"
+                text=" Brands"
                 href="/gallery"
                 isLink={true}
                 color="text-white"

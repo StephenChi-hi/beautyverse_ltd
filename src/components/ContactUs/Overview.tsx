@@ -16,7 +16,7 @@ function Overview() {
   });
 
   return (
-    <div className=" bg-bg_gray py-[70px] xl:py-[100px]">
+    <div className=" bg-bg_gray py-[7px] xl:py-[50px]">
       <div className=" container1    text-p_black" data-aos="flip-right">
         <div className=" grid grid-cols-1 sm:grid-cols-3 gap-4">
           <div
@@ -92,7 +92,7 @@ function Overview() {
         </div>{" "}
       </div>
 
-      {/* <Section5 /> */}
+      <Section5 />
     </div>
   );
 }

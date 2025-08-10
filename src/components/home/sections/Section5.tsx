@@ -68,7 +68,7 @@ function Section5() {
 
   return (
     <div>
-      <div className=" container1 pt-[24px] xl:pt-[100px] text-white">
+      <div className=" container1 pt-[24px] xl:pt-[100px] text-p_black">
         {" "}
         <div
           className=" flex flex-col xl:gap-[24px] items-center w-full mb-[24px] xl:mb-[64px]"
@@ -84,7 +84,7 @@ function Section5() {
         </div>
         <div
           className="flex-row items-center justify-center  xl:py-[17px] text-p_black bg-bg_gray  "
-          data-aos="flip-up"
+          // data-aos="flip-up"
         >
           {/* Mapping over FAQ items */}
           {faqs.map((faq, index) => (
