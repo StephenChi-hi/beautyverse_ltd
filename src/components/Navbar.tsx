@@ -31,7 +31,7 @@ function Navbar() {
         ["/contact-us", "/privacy-policy", "/terms-of-service"].includes(
           pathname
         )
-          ? "bg-bg_gray  py-[8px]- "
+          ? "bg-p_black  py-[8px]- text-white "
           : " bg-p_black border-b-4 border-black text-white py-[8px]- fixed flex w-full z-20"
       }
     >
