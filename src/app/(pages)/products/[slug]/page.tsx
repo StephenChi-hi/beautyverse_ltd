@@ -36,13 +36,13 @@ export async function generateMetadata({
 
   if (!currentBlog) {
     return {
-      title: "Blog Not Found @ Wholesale Skincare Shop – E-commerce Platform for Professionals & Individuals Cosmetics",
+      title: "Blog Not Found @ Beautyverse – Your Destination for Professional & Personal Skincare Excellence",
       description: "The blog post you are looking for is not available.",
     };
   }
 
   return {
-    title: `${currentBlog.title} @ Wholesale Skincare Shop – E-commerce Platform for Professionals & Individuals Cosmetics`,
+    title: `${currentBlog.title} @ Beautyverse – Your Destination for Professional & Personal Skincare Excellence`,
     description: currentBlog.description.slice(0, 160), // First 160 characters as description
     openGraph: {
       title: currentBlog.title,
